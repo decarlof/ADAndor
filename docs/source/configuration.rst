@@ -19,7 +19,8 @@ The Shamrock driver is created with the shamrockConfig command, either from C/C+
 The Shamrock driver is created with the shamrockConfig command, either from C/C++ or from the EPICS IOC shell.
 
 
-::      
+::
+      
         int shamrockConfig(const char *portName, 
                           int shamrockId, const char *iniPath, 
                           int priority, int stackSize)
